@@ -1,0 +1,7 @@
+/*Cambio el estilo del banner*/
+
+img{
+    width: 60%;
+    height: 600px;
+    margin-left: 280px;
+}

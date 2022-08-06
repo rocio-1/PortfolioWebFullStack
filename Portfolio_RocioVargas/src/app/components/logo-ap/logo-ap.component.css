@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    margin-right: 0,8em; 
+    float: right;
+    margin-top: 30px;  
+}
+
+#imglogo{
+    width: 240px;
+    }
+
+img{
+    width: 60px;
+}
+
+.btn{
+    border-width: medium;
+    box-shadow: 3px 3px 3px rgb(203, 205, 212);
+    text-shadow: 1px 1px 1px rgb(90, 89, 89);
+    text-decoration-style: double;
+}
+
+/*Vista celular */
+@media (max-width:575px) {
+    .container{
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
