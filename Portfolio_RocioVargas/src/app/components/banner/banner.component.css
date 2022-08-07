@@ -1,7 +1,24 @@
 /*Cambio el estilo del banner*/
 
-img{
-    width: 60%;
-    height: 600px;
-    margin-left: 280px;
-}
+/*img{
+        width: 60%;
+        height: 600px;
+        margin-left: 280px;
+          
+    }*/
+
+    @media (min-width:576px){
+        img{
+         width: 60%;
+         height: 600px;
+         margin-left: 280px;
+      
+         }}
+     
+         @media (max-width:575px){
+             img{
+                 position:absolute;
+                 width:40%;
+                top: 100px;
+                left: 33%;
+             }}
