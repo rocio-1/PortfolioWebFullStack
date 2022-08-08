@@ -1,6 +1,6 @@
 <div class="row">
     <h1>Experiencia Laboral</h1>
-    <!--<div class="col-lg-1"></div>
+    <!----><div class="col-lg-1"></div>
     <div class="col-lg-11">
         <ul type="square">
             <li><h2>Autoneum</h2> - <h3>(3 años y medio)</h3></li>
@@ -11,10 +11,10 @@
             <h5>Realicé la práctica profesional de la tecnicatura en logística en una fábrica de muebles y aberturas.</h5>
         </ul>
 
-    </div>-->
+    </div><!---->
     <div class="col-lg-2">
-        <button type="button" class="btn btn-warning" routerLink="/nuevaexp" *ngIf="isLogged">
-            Nueva experiencia
+        <button type="button" class="btn btn-light" routerLink="/nuevaexp" *ngIf="isLogged">
+            Agregar experiencia
         </button>
     </div>
 
@@ -32,7 +32,7 @@
                             <i class="bi bi-pencil-square"></i> EDITAR</button>
                     </td>
                     <td *ngIf="isLogged">
-                        <button class="btn btn-dark" (click)="delete(Experiencia.id)">
+                        <button class="btn btn-warning " (click)="delete(Experiencia.id)">
                             <i class="bi bi-tornado"></i> ELIMINAR</button>
                     </td>
                 </tr>
